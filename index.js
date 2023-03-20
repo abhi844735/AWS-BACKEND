@@ -44,6 +44,7 @@ app.get("/hello",(req,res)=>{
 })
 app.listen(8080,()=>{
     console.log("server is running")
+    
 })
 
 app.listen()
