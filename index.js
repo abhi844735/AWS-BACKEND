@@ -38,8 +38,9 @@ async function main(){
     }
 }
 // main();
+
 app.get("/hello",(req,res)=>{
-    res.send("hello")
+    res.send("hello with server 1")
 })
 app.listen(8080,()=>{
     console.log("server is running")
